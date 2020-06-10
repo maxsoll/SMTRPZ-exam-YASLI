@@ -6,15 +6,16 @@ using DAL.Entities;
 
 namespace DAL
 {
-    public class YasliDBContext : DbContext
+    public class YasliDBContext : DbContext, IYasliDBContext
     {
         public DbSet<Child> Children { get; set; }
         public DbSet<Parent> Parents { get; set; }
         public DbSet<Group> Groups { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+
+        void IYasliDBContext.OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            throw new NotImplementedException();
         }
     }
 }
