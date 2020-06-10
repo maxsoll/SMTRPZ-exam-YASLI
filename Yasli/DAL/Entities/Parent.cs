@@ -4,7 +4,10 @@ using System.Text;
 
 namespace DAL.Entities
 {
-    class Parent
+   public class Parent : BaseEntityID<int>
     {
+        public string Name { get; set; }
+        public string PhoneNumber { get; set; }
+
     }
 }

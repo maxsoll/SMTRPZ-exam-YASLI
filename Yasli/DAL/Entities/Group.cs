@@ -4,7 +4,10 @@ using System.Text;
 
 namespace DAL.Entities
 {
-    class Group
+    public class Group : BaseEntityID<int>
     {
+        public int Number { get; set; }
+        public string Name { get; set; }
+        public List<Child> Childrens { get; set; }
     }
 }

@@ -4,7 +4,8 @@ using System.Text;
 
 namespace DAL
 {
-    class BaseEntityID
+    public class BaseEntityID<T>
     {
+        public T ID { get; set; }
     }
 }
