@@ -1,0 +1,6 @@
+D:\Prog\Exam\Yasli\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+D:\Prog\Exam\Yasli\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+D:\Prog\Exam\Yasli\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+D:\Prog\Exam\Yasli\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+D:\Prog\Exam\Yasli\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+D:\Prog\Exam\Yasli\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
